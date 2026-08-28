@@ -18,3 +18,8 @@ Welcome to my personal data analytics portfolio repository, hosted live via GitH
 * **LinkedIn:** [linkedin.com/in/alejandrocortes92](https://www.linkedin.com/in/alejandrocortes92/)
 * **Tableau Public:** [Alejandro's Vizzes](https://public.tableau.com/app/profile/alejandro.cortes7650/vizzes)
 * **GitHub:** [acortes4892](https://github.com/acortes4892)
+
+---
+
+### 📜 Data Source & Licensing
+The dataset used in this analysis is provided by Motivate International Inc. under the [Divvy Data License Agreement](https://divvybikes.com/data-license-agreement). This public data is made available for analytical and educational use.
