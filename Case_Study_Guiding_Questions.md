@@ -120,7 +120,7 @@ The historical trip data allows me to compare usage patterns between casual ride
 Are there any problems with the data?
 It looks like I'll need to clean the data across all 12 files to ensure there’s consistent formatting and remove any unnecessary data.
 
-Data sources used: The data license agreement can be found here. The agreement allows me to access, reproduce, analyze, copy, modify, and distribute the data in a lawful manner.
+Data sources used: The original dataset is provided by Motivate International Inc. under the [Divvy Data License Agreement](https://divvybikes.com/data-license-agreement). This agreement permits accessing, analyzing, copying, modifying, and distributing the data in a lawful manner for educational and analytical purposes.
 
 Process
 
