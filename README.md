@@ -9,6 +9,8 @@ Welcome to my personal data analytics portfolio repository, hosted live via GitH
 ### 📊 Featured Projects & Skills
 * **Tools & Technologies:** SQL, Google BigQuery, Tableau, Spreadsheets, Data Cleaning & Visualization
 * **Featured Project:** Cyclistic Bike-Share Data Analysis (Google Data Analytics Capstone)
+  * 📄 [Case Study Guiding Questions](Case_Study_Guiding_Questions.md)
+  * 📓 [Kaggle Analysis Notebook](https://www.kaggle.com/code/alejandrocortes92/cyclistic-bike-share-case-study-sql-r-analysis)
 
 ---
 
