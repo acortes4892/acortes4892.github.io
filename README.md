@@ -3,7 +3,7 @@
 Welcome to my personal data analytics portfolio repository, hosted live via GitHub Pages.
 
 🌐 **Live Website:** [acortes4892.github.io](https://acortes4892.github.io/)
-🚧 **Note:** Portfolio website is currently under active development. Project write-ups, dashboard embeds, and code assets are being updated.
+ 🚧 **Note:** Portfolio website is currently under active development. Project write-ups, dashboard embeds, and code assets are being updated.
 
 ---
 
