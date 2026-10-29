@@ -1289,7 +1289,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
-/* Ensure the hero background photo anchors from the top so head isn't cut off */
+/* Fine-tune hero image framing: centered horizontally, 20% down from top */
 .hero img {
-  object-position: top center !important;
+  object-position: 50% 20% !important;
 }
