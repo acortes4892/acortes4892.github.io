@@ -1291,5 +1291,5 @@ section {
 }
 /* Fine-tune hero image framing: centered horizontally, 20% down from top */
 .hero img {
-  object-position: 50% 20% !important;
+  object-position: 50% 30% !important;
 }
