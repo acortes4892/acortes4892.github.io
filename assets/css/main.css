@@ -1273,3 +1273,15 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Apply consistent background to all sections below Hero */
+main.main,
+main.main section {
+  background-color: #f4f6f9 !important;
+}
+
+/* Keep cards and info blocks clean and high-contrast */
+.resume .resume-item,
+.contact .info-wrap,
+.portfolio .portfolio-content {
+  background-color: #ffffff;
+}
