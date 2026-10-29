@@ -1302,3 +1302,12 @@ section {
 .hero .container {
   margin-top: 0 !important;
 }
+/* Allow multiple action links in portfolio cards to space evenly */
+.portfolio .portfolio-info .preview-link,
+.portfolio .portfolio-info .details-link {
+  position: static !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4px;
+}
