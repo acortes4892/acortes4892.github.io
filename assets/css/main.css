@@ -1296,7 +1296,7 @@ section {
 /* Align Hero name and typed text toward the top */
 .hero {
   align-items: flex-start !important;
-  padding-top: 60px !important;
+  padding-top: 50px !important;
 }
 
 .hero .container {
