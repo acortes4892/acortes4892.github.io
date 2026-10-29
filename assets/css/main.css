@@ -1273,15 +1273,19 @@ section,
 .starter-section {
   /* Add your styles here */
 }
-/* Apply consistent background to all sections below Hero */
+/* Apply darker contrasted background to all sections below Hero */
 main.main,
-main.main section {
-  background-color: #f4f6f9 !important;
+main.main section,
+section {
+  background-color: #e2e8f0 !important;
 }
 
-/* Keep cards and info blocks clean and high-contrast */
+/* Ensure individual cards and containers stay crisp white with subtle elevation */
 .resume .resume-item,
 .contact .info-wrap,
-.portfolio .portfolio-content {
-  background-color: #ffffff;
+.portfolio .portfolio-content,
+.about .content {
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
