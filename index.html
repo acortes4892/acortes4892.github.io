@@ -256,7 +256,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio Projects</h2>
-        <p>End-to-end data analytics case studies showcasing ETL pipelines, exploratory data analysis, and interactive executive BI reporting.</p>
+        <p>End-to-end data analytics case studies showcasing ETL pipelines, data quality auditing, exploratory analysis, and executive BI reporting.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -265,20 +265,21 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All Projects</li>
-            <li data-filter=".filter-cyclistic">Cyclistic Bike-Share Case Study</li>
+            <li data-filter=".filter-cyclistic">Cyclistic Bike-Share</li>
+            <li data-filter=".filter-complaints">Utility Customer Complaints</li>
           </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <!-- Master Project Card: Cyclistic End-to-End Case Study (7 Views) -->
-            <div class="col-lg-6 col-md-8 portfolio-item isotope-item filter-cyclistic">
+            <!-- Project 1: Cyclistic End-to-End Case Study (7 Views) -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-cyclistic">
               <div class="portfolio-content h-100">
                 <!-- Cover Image: Executive Dashboard -->
                 <img src="assets/img/portfolio/Executive%20Dashboard.png" class="img-fluid" alt="Cyclistic Bike-Share End-to-End Analytics Case Study">
                 
                 <div class="portfolio-info">
                   <h4>Cyclistic Bike-Share Analytics</h4>
-                  <p>End-to-End Case Study: BigQuery SQL, R, &amp; Tableau BI Suite (7 Gallery Slides)</p>
+                  <p>End-to-End Case Study: BigQuery SQL, R, &amp; Tableau BI Suite (7 Slides)</p>
                   
                   <!-- Main Lightbox Trigger (Slide 1: Executive Dashboard) -->
                   <a href="assets/img/portfolio/Executive%20Dashboard.png" 
@@ -317,7 +318,6 @@
                 </div>
 
                 <!-- Hidden Lightbox Slides (Slides 2 to 7) -->
-                <!-- Tableau Visuals -->
                 <a href="assets/img/portfolio/Monthly_Trends.png" 
                    title="View 2: Monthly Demand Trends (Casual vs. Annual Members)" 
                    data-gallery="portfolio-gallery-cyclistic" 
@@ -338,20 +338,78 @@
                    data-gallery="portfolio-gallery-cyclistic" 
                    class="glightbox d-none"></a>
 
-                <!-- SQL Pipeline Slide -->
                 <a href="assets/img/portfolio/bigquery-sql-pipeline.png" 
                    title="View 6: BigQuery SQL Pipeline (12-Month Union, Cleaning, &amp; Feature Engineering)" 
                    data-gallery="portfolio-gallery-cyclistic" 
                    class="glightbox d-none"></a>
 
-                <!-- Kaggle / R Analysis Slide -->
                 <a href="assets/img/portfolio/r-cyclistic-analysis.png" 
                    title="View 7: Kaggle Analysis Writeup (Exploratory Analysis &amp; Business Strategy)" 
                    data-gallery="portfolio-gallery-cyclistic" 
                    class="glightbox d-none"></a>
 
               </div>
-            </div><!-- End Master Project Card -->
+            </div><!-- End Project 1 Card -->
+
+            <!-- Project 2: Utility Customer Complaints & Service Reliability Analysis -->
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-complaints">
+              <div class="portfolio-content h-100">
+                <!-- Cover Image: Slide 1 from PowerPoint -->
+                <img src="assets/img/portfolio/Customer Complaint Analysis_Alejandro_Cortes_Altered.pptx.png" class="img-fluid" alt="Utility Customer Complaints & Service Reliability Analysis">
+                
+                <div class="portfolio-info">
+                  <h4>Utility Customer Complaints Analysis</h4>
+                  <p>Excel Data Cleaning, YoY Reliability Trends, &amp; Executive Deck</p>
+                  
+                  <!-- Main Lightbox Trigger (Slide 1) -->
+                  <a href="assets/img/portfolio/Customer Complaint Analysis_Alejandro_Cortes_Altered.pptx.png" 
+                     title="Slide 1: Executive Summary &amp; YoY Complaint Trends (-33.87%)" 
+                     data-gallery="portfolio-gallery-complaints" 
+                     class="glightbox preview-link">
+                     <i class="bi bi-zoom-in"></i>
+                  </a>
+                  
+                  <!-- Link 1: Full Project Folder & Executive README on GitHub -->
+                  <a href="https://github.com/acortes4892/acortes4892.github.io/tree/main/projects/customer-complaints" 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     title="View Full Project Folder, Summary &amp; Presentation on GitHub" 
+                     class="details-link">
+                     <i class="bi bi-folder2-open"></i>
+                  </a>
+
+                  <!-- Link 2: Cleaned Excel Dataset -->
+                  <a href="https://github.com/acortes4892/acortes4892.github.io/blob/main/projects/customer-complaints/Energy Client Exercise 2026_Cleaned_AC.xlsx" 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     title="Inspect Cleaned Excel Dataset (716 Records)" 
+                     class="details-link">
+                     <i class="bi bi-file-earmark-spreadsheet"></i>
+                  </a>
+
+                  <!-- Link 3: Data Cleaning Log -->
+                  <a href="https://github.com/acortes4892/acortes4892.github.io/blob/main/projects/customer-complaints/Data Cleaning Log_Exercise.pdf" 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     title="Read Data Cleaning Log &amp; QC Audit Trail" 
+                     class="details-link">
+                     <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+
+                <!-- Hidden Lightbox Slides (Additional PowerPoint Visuals) -->
+                <a href="assets/img/portfolio/_Monthly Complaint Trends.png" 
+                   title="Slide 2: Monthly Complaint Volumes &amp; Seasonal Volatility" 
+                   data-gallery="portfolio-gallery-complaints" 
+                   class="glightbox d-none"></a>
+                   
+                <a href="assets/img/portfolio/_Yearly Complaints by Category.png" 
+                   title="Slide 3: Year-over-Year Category Shifts  &amp; Dynamics" 
+                   data-gallery="portfolio-gallery-complaints" 
+                   class="glightbox d-none"></a>
+
+              </div>
+            </div><!-- End Project 2 Card -->
 
           </div><!-- End Portfolio Container -->
 
